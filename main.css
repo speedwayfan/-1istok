@@ -1,0 +1,147 @@
+.item__product{
+	width: 360px;
+	margin-bottom: 20px;
+}
+
+.item__product-inner{
+	padding: 9%;
+	border: 1px solid grey;
+	border-radius: 3px;
+	height: 280px;
+}
+
+.content__pic{
+	height: 100px;
+    background-repeat: no-repeat;
+	background-image: url("img/pic1.png");
+	background-position: center;
+	background-size: contain;
+}
+
+.type__inline{
+	display: inline-block;
+	background: red;
+    color: #fff;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 25px 0 10px;
+}
+
+.type__inline2{
+	background: blue;
+	display: inline-block;
+    color: #fff;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 25px 0 10px;
+}
+
+.content__name{
+	width: 70%;
+    vertical-align: top;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.content__price{
+	display: inline-block;
+    font-weight: 700;
+}
+
+
+
+.article__tab{
+	display: none;
+}
+
+.article__tab-active{
+	display: flex;
+}
+
+.article{
+	width: 100%;
+	background: #ebeeef;
+	padding: 100px 0 50px;
+}
+
+.article__item{
+	margin-bottom: 20px;
+}
+
+.article__title{
+	margin: 0 auto;
+	padding-bottom: 50px;
+	width: 150px;
+	text-transform: uppercase;
+}
+
+.nav__menu{
+	margin-bottom: 20px;
+}
+
+.nav__list{
+	margin: 0;
+	padding: 0;
+}
+
+.nav__item{
+	display: inline-block;
+	border: 1px #000 solid;
+    padding: 3px 4px;
+    border-radius: 2px;
+}
+
+.nav__item-active{
+	border: 2px solid #000;
+	border-radius: 3px;
+}
+
+.nav__item-red{
+	display: inline-block;
+	background: #de002c;
+	color: #fff;
+	padding: 3px 5px;
+    border-radius: 2px;
+}
+
+.article__pic{
+	height: 300px;
+    background-repeat: no-repeat;
+	background-image: url("img/layer27.png");
+	background-position: center;
+	padding: 9%;
+}
+
+.article__pic-views, .article__pic-date, .article__pic-link{
+	display: inline-block;
+}
+
+.article__pic-date{
+	float: right;
+}
+
+.article__pic-title{
+    margin: auto;
+    width: 244px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 17% 0 5%;
+}
+
+.article__pic-links{
+	margin: auto;
+	width: 265px;
+}
+
+.article__pic-link{
+	margin: auto;
+	text-decoration: underline;
+	padding-right: 10px;
+}
+
+.article__text{
+	background: #fff;
+	padding: 4%;
+}
